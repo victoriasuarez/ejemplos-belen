@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    /* Titulos */
+    <h1>hola</h1>
+    <h2>hola</h2>
+    <h3>hola</h3>
+    <h4>hola</h4>
+    <h5>hola</h5>
+    <h6>hola</h6>
+
+    /* Listas */
+    <ul>
+        <li>lista desordenada</li>
+        <li>lista desordenada</li>
+        <ul>
+            <li>lista ordenada</li>
+            <li>lista ordenada</li>
+            <li>lista ordenada</li>
+        </ul>
+        <li>lista desordenada</li>
+    </ul>
+
+    <ol>
+        <li>lista ordenada</li>
+        <li>lista ordenada</li>
+        <li>lista ordenada</li>
+    </ol>
+
+    <!--- Pueden ser de diferente tipo. A mayuscula, a minuscula, 1 numero, I y i numero romano -->
+    <ol type="a">
+        <li>lista ordenada</li>
+        <li>lista ordenada</li>
+        <li>lista ordenada</li>
+    </ol>
+
+    <dl>
+        <dt>listas de definicion</dt>
+        <dd>listas de definicion</dd>
+        <dd>listas de definicion</dd>
+        <dt>listas de definicion</dt>
+    </dl>
+
+    <p>/* Etiquetas de linea */</p>
+    <!--- El href se usa para los links ------->
+    <a href="">Esto es una a sin link</a>
+    <a href="http://www.google.com">Esto es una a que te redirige a Google</a>
+    <span>esto es un span</span>
+    <strong>Esto es un strong</strong>
+    <!--- El src se pone el link a la imagen -->
+    <!--- El alt se usa para las pesonas con discapacidad, describis la imagen y la gente escucha -->
+    <img src="" alt="">
+    <!--- Pueden ser de distinto tipo depende la entrada del formulario -->
+    <input type="number">
+    <code>Esto es un code</code>
+
+    <p>/* Etiquetas de bloque además de h1,h2,h3... y ul, li */ </p>
+    <p>esto es una pe</p>
+    <!--- el div, el nav y el section se usan mucho para dividir bloques de codigo --->
+    <div class="div">Esto es un div</div>
+    <div class="div">
+        <p>Un p dentro de un div</p>
+    </div>
+    <!--- El nav se usa generalmente para hacer los menus de arriba de las paginas-->
+    <nav>Esto es un nav</nav>
+    <nav>
+        <p>Un p dentro de un nav</p>
+    </nav>
+    <section>Esto es un section</section>
+    <section>
+        <p>Un p dentro de un section</p>
+    </section>
+    <!--- Esto es un formulario-->
+    <form action="">
+        <fieldset>
+            <legend>Completa los campos</legend>
+            <div class="formulario">
+                <div>
+                    <label for="name">Nombre:</label>
+                    <input type="text" name="nombre" id="name" required>
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" required>
+                </div>
+                <div>
+                    <label for="date">Cumpleaños:</label>
+                    <input type="date" name="date" id="date" required>
+                </div>
+                <div>
+                    <p>Deporte favorito:</p>
+                    <div>
+                        <input type="radio" name="futbol" id="futbol">
+                        <label for="futbol">Futbol</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="rugby" id="rugby">
+                        <label for="rugby">Rugby</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="tenis" id="tenis">
+                        <label for="tenis">Tenis</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="auto" id="auto">
+                        <label for="auto">Automovilismo</label>
+                    </div>
+                </div>
+                <div>
+                    <p>Series que te gusten:</p>
+                    <div>
+                        <input type="checkbox" name="serie1" id="manifiesto">
+                        <label for="manifiesto">Manifiesto</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="serie2" id="theRain">
+                        <label for="theRain">The rain</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="serie3" id="lrdf">
+                        <label for="lrdf">La reina del flow</label>
+                    </div>
+                </div>
+                <div class="button">
+                    <input type="submit" value="Enviar">
+                </div>
+            </div>
+        </fieldset>
+    </form>
+</body>
+
+</html>
